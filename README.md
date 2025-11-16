@@ -1,25 +1,25 @@
-# 📝 To-Do List CLI (Python)
+# ⭐ To-Do List CLI v2.0
 
-A simple yet powerful **Command Line To-Do List App** built in Python.  
-This project lets you easily manage your daily tasks right from the terminal —  
-add, view, delete, and clean tasks with smooth interactive feedback.  
+A **modern**, **animated**, and **persistent** command-line To-Do List manager built with Python.  
+This project combines clean code structure, interactive CLI experience, and JSON-based task storage to make managing your tasks simple, fast, and fun.  
 
 ---
 
 ## 🚀 Features
 
-✅ Add new tasks easily  
-✅ View all your tasks in a clean, organized list  
-✅ Delete tasks by name or number  
-✅ Clear all tasks in one command  
-✅ Error handling for invalid inputs  
-✅ Smooth experience with small delays for realism  
+### 🔹 Interactive CLI
+- Beautiful **ASCII startup logo** displayed only once at program launch.  
+- Smooth **text animations** for loading, adding, deleting, and cleaning tasks.  
+- Friendly **icons and prompts** for a modern terminal experience.
+
+### 🔹 Persistent Task Management
+- Tasks are saved automatically in `todo.json`.  
+- Auto-creates the JSON file if missing.  
+- Supports **Add**, **View**, **Delete** (by name or number), and **Clean All** tasks.  
+
+### 🔹 Error Handling & UX
+- Validates input to prevent empty or invalid entries.  
+- Graceful exit on `CTRL + C` or menu exit.  
+- Pause prompts ensure user has time to read feedback messages.
 
 ---
-
-## 💡 Usage
-
-### 1. Run the App
-Open your terminal in the project folder and run:
-```bash
-python todo-list.py
